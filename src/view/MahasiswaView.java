@@ -129,8 +129,6 @@ public class MahasiswaView extends javax.swing.JFrame {
 
         lblNama.setText("Nama Mahasiswa");
 
-        txtNama.setText("jTextField2");
-
         lblProdi.setText("Prodi");
 
         btnCancel.setText("Batal");
