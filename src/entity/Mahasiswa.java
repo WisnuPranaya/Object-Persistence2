@@ -12,25 +12,25 @@ package entity;
  * 2. I Made Wisnu Dharmapranaya    (210711352)
  * 3. Kevin Edgard Halim            (210711376)
  */
-public class Prodi {
-    private String kodeProdi;
-    private String namaProdi;
+public class Mahasiswa {
+    private String npm;
+    private String namaMhs;
+    private Prodi prodi;
     
-    public Prodi(String kodeProdi,String namaProdi) {
-        this.kodeProdi = kodeProdi;
-        this.namaProdi = namaProdi;
+    public Mahasiswa(String npm,String namaMhs, Prodi prodi) {
+        this.npm = npm;
+        this.namaMhs = namaMhs;
+        this.prodi = prodi;
     }
 
-    public String getKodeProdi() {
-        return kodeProdi;
+    public String getNPM() {
+        return npm;
     }
-    public String getNamaProdi() {
-        return namaProdi;
+    public String getNamaMahasiswa() {
+        return namaMhs;
     }
-
-    @Override
-    public String toString() {
-        return namaProdi;
+    public Prodi getProdi() {
+        return prodi;
     }
 
 }

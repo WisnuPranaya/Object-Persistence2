@@ -52,5 +52,10 @@ public class ProdiControl {
     {
         return pDao.searchProdi(kodeprodi);
     }
+    
+    public List<Prodi> showListProdi() {
+        List<Prodi> dataProdi = pDao.showProdi();
+        return dataProdi;
+    }
 
 }
