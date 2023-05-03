@@ -19,7 +19,7 @@ public class DbConnection {
     
     public static Connection CON;
     public static final String URL = "jdbc:mysql://";
-    public static final String PATH = "localhost:3306/object_persistence.";
+    public static final String PATH = "localhost:3306/object_persistence";
 
     public Connection makeConnection() {        
         System.out.println("Opening database..");
