@@ -59,13 +59,13 @@
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Component id="btnDelete" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="lblKode" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
                                       <Component id="lblNama" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
                                       <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
                                           <Component id="txtNama" alignment="0" max="32767" attributes="0"/>
                                           <Component id="txtKode" alignment="0" min="-2" pref="213" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="lblTitle" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <Component id="lblKode" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace pref="121" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">

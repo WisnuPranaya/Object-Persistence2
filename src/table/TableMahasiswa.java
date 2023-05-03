@@ -5,7 +5,6 @@
 
 package table;
 
-package table;
 import java.util.List;
 import javax.swing.table.AbstractTableModel;
 import entity.Mahasiswa;
